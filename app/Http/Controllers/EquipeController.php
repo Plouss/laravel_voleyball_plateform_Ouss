@@ -56,7 +56,7 @@ class EquipeController extends Controller
         $store->maxJoueurs = $request->maxJoueurs;
         $store->continent_id = $request->continent_id;
         $store->save();
-        return redirect('/equipe')->with('message', "IT'S REGISTERED!");
+        return redirect('/equipe')->with('message', "L'equipe est ajouté!");
     }
     
 
